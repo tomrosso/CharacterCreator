@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     public SpriteRenderer ArmorRenderer;
     public SpriteRenderer WeaponRenderer;
 
@@ -12,6 +11,9 @@ public class PlayerController : MonoBehaviour
    {
        ArmorRenderer.sprite=newSprite;
    }
+
+
+
 
 public void SetWeapon(Sprite newSprite)
    {
